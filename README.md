@@ -1,2 +1,0 @@
-# Grandaress.github.io
-Store
