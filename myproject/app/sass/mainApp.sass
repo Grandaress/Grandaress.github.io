@@ -1,0 +1,695 @@
+@import "base"
+@import "libs"
+@import "vars"
+@import 'range'
+
+@mixin head
+  margin-top: 100px
+  text-align: center
+  font: bold 30px $family
+  text-transform: uppercase
+  color: $dark
+
+body
+  background-color: #fff
+
+header
+  background: url('../img/app-temp/app2.png') center no-repeat
+  background-size: 120%
+
+#logo
+  margin-top: 50px
+  color: #fff
+
+.menu
+  margin-top: 50px
+  font-family: $family
+  font-weight: bold
+  li
+    list-style-type: none
+    text-transform: uppercase
+  a
+    transition-property: background-color, color
+    transition-duration: 0.5s
+    transition-timing-function: ease-out
+    padding: 5px 10px
+    font-weight: 700
+    color: $light
+    text-decoration: none
+    &:hover
+      background-color: rgb(0, 2, 85)
+      box-shadow: 0 0 15px blue
+      transition-property: background-color, color
+      transition-duration: 0.3s
+      transition-timing-function: ease-out
+
+
+
+
+.offer
+  margin-top: 70px
+
+.offer-title
+  color: $light
+  font: 750 45px $family
+  text-transform: uppercase
+
+.offer-intro
+  color: $light
+  font: normal 30px $family
+  margin-bottom: 40px
+
+.video__modal
+  margin-bottom: 40px
+
+.video-image
+  height: 190px
+  position: relative
+  display: block
+  width: 350px
+  img
+    height: 100%
+    left: 0
+    position: absolute
+    top: 0
+    width: 100%
+    border-radius: 60px
+  span
+    transition: all 0.5s ease-out
+    display: block
+    height: 100%
+    position: relative
+    width: 100%
+    border-radius: 60px
+    border: 10px solid #009dff
+    box-shadow: inset 0 0 10px 5px rgba(13, 20, 14, 0.70)
+    &:hover
+      box-shadow: inset 0 0 15px 15px rgba(13, 20, 14, 0.40)
+      transition: all 0.5s ease-out
+
+  span i
+    font-size: 26px
+    left: 50%
+    margin: -14px 0 0 -13px
+    position: absolute
+    top: 50%
+
+
+.customColor
+  &:hover
+    transform: scale(2)
+    color: red
+    transition: all 0.5s ease-out
+
+
+
+
+
+a.btn-int__button
+  text-align: center
+  text-transform: uppercase
+  margin-left: 45px
+  border-radius: 5px
+  background-color: #ff8b31
+  padding: 20px 30px
+  border: 0
+  color: $light
+  font: 900 20px $family
+  box-shadow: 3px 3px 10px #000
+  &:hover
+    color: #ffffff
+    text-decoration: none
+
+.block-intro_button
+  transition: all 0.5s ease-in-out
+  &:hover
+    transform: scale(1.1)
+    transition: all 0.5s ease-in-out
+
+.slider-phone
+  margin: 35px 0 0 150px
+  width: 430px
+  height: 590px
+  position: relative
+  z-index: 1
+
+.owl-carousel
+  display: block
+  margin: 100px 0 0 200px
+  width: 100%
+  position: absolute
+  top: -39px
+  left: 25px
+  z-index: 2
+
+.slide-carousel__one
+  height: 435px
+
+.slide-carousel__two
+  height: 435px
+
+.slide-carousel__three
+  height: 435px
+
+
+.owl-dots
+  position: absolute
+  left: 80px
+  outline: none !important
+  border: 0
+
+.owl-carousel .item
+  height: 440px
+  width: 237px
+
+
+
+.about
+  margin-top: 125px
+
+.h-about
+  @include head
+  margin: 0
+
+.intro-about
+  text-align: center
+  font: normal 16px $family
+  text-transform: uppercase
+  color: $dark
+  margin: 32px 0 45px 0
+
+.btn-google
+  text-transform: uppercase
+  border-radius: 5px
+  margin-right: 50px
+  background-color: rgba(0, 0, 0, 0.99) !important
+  padding: 20px 80px
+  padding-left: 90px
+  border: 0
+  color: $light
+  font: 900 17px $family
+  background: url('../img/app-temp/google-play.png') 35px no-repeat
+  background-size: 42px 46px
+  box-shadow: 3px 3px 10px #000
+  &:hover
+    color: aliceblue
+    text-decoration: none
+
+.btn-apple
+  text-transform: uppercase
+  border-radius: 5px
+  margin-left: 50px
+  padding: 20px 80px
+  padding-left: 90px
+  background-color: #000000 !important
+  border: 0
+  color: $light
+  font: 900 17px $family
+  background: url('../img/app-temp/apple.png') 35px no-repeat
+  background-size: 42px 46px
+  text-decoration: none
+  box-shadow: 2px 2px 10px #000
+  &:hover
+    color: aliceblue
+    text-decoration: none
+
+.feature
+  margin-top: 100px
+  background: url('../img/app-temp/feature-fon.png') center no-repeat
+  background-size: 130%
+
+
+.h-feature
+  @include head
+
+.icon
+  margin-top: 100px
+  background-color: #009dff
+  border-radius: 100%
+  padding: 20px
+  width: 100px
+  height: 100px
+  margin-bottom: 30px
+  color: #fff
+  &:hover
+    background-color: #00618b
+    border: 2px solid black
+
+.text-icon-h
+  font: bold 18px $family
+  text-align: center
+  text-transform: uppercase
+  color: #000
+  margin-bottom: 20px
+
+.text-icon
+  text-align: center
+  font-size: 14px
+  margin-bottom: 125px
+
+.align-h p:nth-child(2)
+  margin-left: 15px
+
+.align-h p:nth-child(3)
+  margin-right: 30px
+
+.align-h p:nth-child(4)
+  margin-right: 20px
+
+.price-h
+  @include head
+
+.price-p
+  text-align: center
+  font: normal 15px $family
+  line-height: 30px
+
+
+.table-text
+  position: absolute
+  text-align: center
+  font: normal 14px $family
+  line-height: 45px
+  top: 240px
+  left: 0
+  width: 100%
+  display: block
+
+@mixin free-table
+  position: absolute
+  text-align: center
+  background-color: #fdcd0d
+  display: block
+  top: 185px
+  left: 105px
+  padding: 3px 10px
+  font: bold 20px $family
+  color: $dark
+  text-transform: uppercase
+  &:hover
+    text-decoration: none
+    background-color: #ff8b31
+    color: #fff
+
+.free-table1
+  @include free-table
+
+.free-table2
+  @include free-table
+  left: 50px
+
+.free-table3
+  @include free-table
+  left: 80px
+
+.buy-table
+  position: absolute
+  text-align: center
+  bottom: 40px
+  left: 85px
+  display: block
+  background-color: #fdcd0d
+  padding: 3px 10px
+  font: bold 17px $family
+  color: $dark
+  box-shadow: inset 0 2px 4px $dark
+  text-transform: uppercase
+  &:hover
+    text-decoration: none
+    background-color: #ff8b31
+    color: #fff
+
+.new-bg
+  position: relative
+  width: 200px
+  height: 300px
+  background-color: #becdc9
+
+.image-table
+  display: inline-block
+  position: relative
+
+
+.table
+  margin-top: 100px
+  width: 274px
+  height: 430px
+
+.screen
+  background-color: #fcf8d2
+  margin-top: 150px
+
+.screen-h
+  @include head
+  margin-bottom: 75px
+  margin-top: 130px
+
+.iphone
+  width: 310px
+  height: 660px
+
+.iphone:nth-child(1)
+  background: url('../img/app-temp/slide5.jpg') 15px 87px no-repeat
+  background-size: 280px 485px
+
+.iphone:nth-child(2)
+  background: url('../img/app-temp/slide6.jpg') 15px 87px no-repeat
+  background-size: 280px 485px
+
+.iphone:nth-child(3)
+  background: url('../img/app-temp/slide4.jpg') 15px 87px no-repeat
+  background-size: 280px 485px
+
+.slider-icons
+  margin: 80px 0 130px 0
+
+.left-arrow
+  transform: rotate(90deg)
+  margin-right: 35px
+  &:hover
+    box-shadow: 5px 5px 10px #000
+    border-radius: 100%
+
+.right-arrow
+  transform: rotate(-90deg)
+  margin-left: 35px
+  &:hover
+    box-shadow: 5px 5px 10px #000
+    border-radius: 100%
+
+.iphone-icon
+  margin: 0 10px
+
+.more-apps
+  background: url("../img/app-temp/fon-more.png") center no-repeat
+  background-size: 130%
+
+.more-h
+  @include head
+  color: #ffffff
+  margin-bottom: 100px
+
+.card
+  margin: 0 10px 0 0
+
+.card-h
+  font: bold 15px $family
+  text-transform: uppercase
+  color: $dark
+
+ul.rating
+  margin-bottom: 30px
+  padding: 0
+
+ul.rating li.active
+  color: #ff9c1c
+
+ul.rating li
+  color: #e0e0e0
+  display: block
+  font-size: 14px
+
+.fa-star
+  display: inline-block
+  font: normal normal normal 14px/1 FontAwesome
+  font-size: inherit
+  text-rendering: auto
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  transform: translate(0, 0)
+
+.fa-star:before
+  content: "\f005"
+
+.free-card
+  font: bold 18px $family
+  color: $dark
+  &:hover
+    text-decoration: none
+
+.last-col
+  margin: 100px 0 130px 0
+
+.circle1
+  margin-right: 15px
+  width: 20px
+  height: 20px
+  border-radius: 100%
+  background-color: #fff
+
+.circle2
+  margin-left: 15px
+  width: 20px
+  height: 20px
+  border-radius: 100%
+  border: 1px solid #fff
+
+.team-h
+  @include head
+
+.team-p
+  text-align: center
+  font: normal 20px $family
+  color: $dark
+  text-transform: uppercase
+  margin-top: 20px
+
+.new-card
+  border: 0
+  margin: 100px 0 100px 0
+  height: 320px
+  width: 200px
+
+.last-range
+  margin-bottom: 150px
+
+.support
+  background: url("../img/app-temp/fon-support.png") center no-repeat
+  background-size: 150%
+  height: 1080px
+
+.support-h
+  @include head
+  color: #fff
+  margin-top: 100px
+
+.support-p
+  text-align: center
+  color: #fff
+  line-height: 30px
+  margin-bottom: 80px
+
+.form-fon
+  display: inline-block
+  position: relative
+  width: 600px
+  height: 645px
+
+.form-h
+  position: absolute
+  top: 70px
+  left: 180px
+  font: bold 25px $family
+  text-transform: uppercase
+
+@mixin form
+  position: absolute
+  top: 140px
+  left: 180px
+  font: normal 18px $family
+  border-radius: 30px
+  background: #e6e6e6
+  border: 0
+  box-shadow: 3px 3px 5px $dark
+
+.name
+  @include form
+  width: 280px
+  height: 50px
+  margin-bottom: 20px
+  padding-left: 35px
+
+
+.email
+  @include form
+  top: 210px
+  width: 280px
+  height: 50px
+  padding-left: 35px
+
+#text
+  @include form
+  top: 320px
+  text-align: left
+  color: #757575
+
+.send
+  position: absolute
+  left: 180px
+  font: bold 20px $family
+  border-radius: 50px
+  bottom: 100px
+  padding: 10px 120px
+  background-color: #fdcd0d
+  color: $dark
+  text-transform: uppercase
+  border: 0
+  box-shadow: 3px 3px 5px $dark
+  outline: none !important
+
+
+@mixin icon-super
+  background-color: #fff
+  padding: 40px
+  font-size: 25px
+  border-radius: 100%
+  margin-right: 20px
+
+.fa-location-arrow
+  @include icon-super
+
+.fa-phone-volume
+  @include icon-super
+
+.fa-envelope
+  @include icon-super
+
+.icon-adress
+  color: #fff
+
+.text-adress
+  color: #fff
+
+.icon-sup
+  margin-bottom: 100px
+
+.lamp
+  position: relative
+  width: 100px
+  height: 100px
+  bottom: 55px
+  left: 700px
+  
+.footer
+  background: #000
+  color: #fff
+
+.offset
+  margin-top: 35px
+
+.footer-h
+  text-align: left
+  margin-right: 200px
+
+.logo-footer
+  text-align: center
+  margin-right: 200px
+
+.fa-facebook-f
+  margin-right: 40px
+  font-size: 25px
+  &:hover
+    color: #fff423
+
+.fa-twitter
+  margin-right: 40px
+  font-size: 25px
+  &:hover
+    color: #fff423
+
+.fa-telegram-plane
+  margin-right: 40px
+  font-size: 25px
+  &:hover
+    color: #fff423
+
+.fa-instagram
+  font-size: 25px
+  &:hover
+    color: #fff423
+
+.footer-text
+  font: normal 20px $family
+  text-align: center
+  margin: 30px 0
+  text-transform: uppercase
+
+
+.btn-google2
+  text-transform: uppercase
+  border-radius: 5px
+  margin-right: 50px
+  background-color: rgba(255, 255, 255, 0.99) !important
+  padding: 20px 80px
+  padding-left: 90px
+  border: 0
+  color: $dark
+  font: 900 17px $family
+  background: url('../img/app-temp/google2.png') 35px no-repeat
+  background-size: 42px 46px
+  box-shadow: 3px 3px 10px #000
+  &:hover
+    color: #000000
+    text-decoration: none
+
+.btn-apple2
+  text-transform: uppercase
+  border-radius: 5px
+  margin-left: 50px
+  padding: 20px 80px
+  padding-left: 90px
+  background-color: rgba(255, 255, 255, 0.99) !important
+  border: 0
+  color: $dark
+  font: 900 17px $family
+  background: url('../img/app-temp/apple2.png') 35px no-repeat
+  background-size: 42px 46px
+  text-decoration: none
+  box-shadow: 2px 2px 10px #000
+  &:hover
+    color: #000000
+    text-decoration: none
+
+.last-block
+  margin-bottom: 45px
+
+// popup
+
+.popup
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  display: none
+
+.popup__overlay
+  position: absolute
+  background: rgba(0, 0, 0, 0.86)
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  display: flex
+  justify-content: center
+
+.popup__body
+  width: 540px
+  height: 480px
+  background: #fff
+  border-radius: 5px
+  padding: 40px
+  position: relative
+
+.popup__close
+  color: #000000
+  position: absolute
+  right: 20px
+  top: 20px
+
+.popup__text
+  text-transform: uppercase
+  font: 800 17px $family
+
+.show
+  display: block
