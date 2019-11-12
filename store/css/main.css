@@ -530,9 +530,7 @@ input[type="search"] {
     text-decoration: none;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-  }
+    font-size: 14px; }
 
 /* main section */
 .main {
@@ -639,7 +637,7 @@ h1 {
 
 /* first footer */
 .first-footer {
-  background: url("../img/back-fon.png") center no-repeat;
+  background: url("../img/store-temp/back-fon.png") center no-repeat;
   background-size: cover;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center; }
@@ -1105,3 +1103,15 @@ h1 {
     padding: 0; }
   .third-footer-list {
     margin: 0 85px 50px 0; } }
+@media only screen and (max-width: 375px) {
+  .first-footer {
+    margin-top: 230px; }
+  .numbers-list a {
+    font-size: 13px; }
+  }
+@media only screen and (max-width: 320px) {
+  .first-footer {
+    margin-top: 280px; }
+  .forms input {
+    width: 100px; }
+  }
