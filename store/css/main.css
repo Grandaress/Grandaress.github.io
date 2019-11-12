@@ -637,7 +637,7 @@ h1 {
 
 /* first footer */
 .first-footer {
-  background: url("../img/store-temp/back-fon.png") center no-repeat;
+  background: url("../img/back-fon.png") center no-repeat;
   background-size: cover;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center; }
