@@ -32,14 +32,13 @@ html {
     border-radius: 30px;
     padding: 30px;
     background: #37393B;
-    background-size: 200px 100px;
     position: absolute;
     top: 15%;
     width: 90%;
     left: 5%;
     margin-top: -87.5px;
     font-size: 25px;
-    height: 175px;
+    height: 275px;
     display: none;
 }
 
