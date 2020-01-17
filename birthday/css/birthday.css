@@ -2,9 +2,55 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
 }
 
 header {
     width: 100%;
     height: 100vh;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    border-radius: 30px;
+    padding: 30px;
+    background: #37393B;
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    left: 5%;
+    margin-top: -87.5px;
+    font-size: 30px;
+    height: 175px;
+}
+
+.wave {
+    color: #999999;
+    -webkit-animation: 0.5s color infinite;
+    animation: 0.5s color infinite;
+}
+
+@-webkit-keyframes color {
+    50% {
+        color: #8fc8ae;
+    }
+}
+
+@keyframes color {
+    50% {
+        color: #8fc8ae;
+    }
 }
