@@ -14,6 +14,7 @@ body {
 .header {
     width: 100%;
     height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 html {
@@ -30,14 +31,14 @@ html {
 
 .wrapper {
     border-radius: 30px;
-    padding: 30px;
-    background: #37393B;
+    padding: 10px;
     position: absolute;
     top: 15%;
     width: 90%;
     left: 5%;
     margin-top: -87.5px;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
     display: none;
 }
 
@@ -49,13 +50,13 @@ html {
 
 @-webkit-keyframes color {
     50% {
-        color: #8fc8ae;
+        color: #ffffff;
     }
 }
 
 @keyframes color {
     50% {
-        color: #8fc8ae;
+        color: #5dfff7;
     }
 }
 
@@ -66,7 +67,6 @@ html {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     display: block;
-    color: black;
     font: bold 23px sans-serif;
     background: #0080fa;
     color: #fff;
