@@ -1,3 +1,10 @@
+$(function() {
+    $('.cool-btn').click(function(){
+        $('.wrapper').addClass('wrapper-show');
+        $(this).css('display', 'none');
+    });
+});
+
 var wrapper = document.querySelector(".wrapper");
 var text = document.querySelector(".text");
 
@@ -18,3 +25,4 @@ for (var i = 0; i < textCont.length; i++) {
         }, 75 * i);
     }(i));
 }
+
