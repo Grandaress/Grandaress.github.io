@@ -1,0 +1,166 @@
+@media only screen and (max-width : 1750px) {
+    .price {
+        height: 1207px;
+        margin-top: -100px;
+    }
+
+    .latest-news {
+        height: 950px;
+        padding-top: 300px;
+    }
+
+    .some-man {
+        height: 600px;
+        background-size: 270px 600px;
+    }
+}
+
+@media only screen and (max-width : 1360px) {
+    .header {
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+    .some-man {
+        left: 550px;
+    }
+
+    .header-img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .price {
+        margin-top: -350px;
+        padding-top: 550px;
+        height: 2800px;
+    }
+
+    .price-block {
+        width: 350px;
+        margin-bottom: 60px;
+    }
+
+    .some-man {
+        display: none;
+    }
+
+    .header {
+        background-size: 120%;
+    }
+
+    .latest-news {
+        height: 900px;
+        padding-top: 270px;
+    }
+
+    .social-icon {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu__list {
+        display: flex;
+    }
+
+    .footer-menu__list {
+        padding-left: 0;
+    }
+
+    .footer-menu__list li {
+        margin-right: 15px;
+    }
+
+    .footer-menu__list li a {
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .last-footer {
+        flex-flow: column;
+    }
+
+    .copyright {
+        margin-top: 20px;
+    }
+
+    .header-menu {
+        display: none !important;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    .text-article {
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .copyright {
+        font-size: 15px;
+    }
+
+    .header {
+        background-size: 160%;
+    }
+
+    .header-img {
+        width: 500px;
+        height: 450px;
+    }
+
+    .footer-menu__list {
+        flex-wrap: wrap;
+    }
+
+    .drop-menu {
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (max-width : 520px) {
+    .header-img {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+
+    .header {
+        background: url('../img/header-back.png') left top no-repeat;
+        background-size: 300%, 100%;
+    }
+
+    .second-header_part {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width : 425px) {
+    .latest-news {
+        height: 1100px;
+    }
+
+    .monitor {
+        width: 250px;
+        height: 250px;
+    }
+
+    .your-bis {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width : 335px) {
+    .main-menu {
+        width: 280px;
+    }
+}
