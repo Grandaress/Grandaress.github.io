@@ -1,3 +1,26 @@
+
+
+@media only screen and (max-width : 2000px) {
+    .solution {
+        height: 1100px;
+    }
+
+    .latest-news {
+        height: 1150px;
+        padding-top: 400px;
+    }
+
+    .project-header__text {
+        color: #ff7200;
+        font: bold 24px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 20px Lato, sans-serif;
+    }
+}
+
 @media only screen and (max-width : 1750px) {
     .price {
         height: 1207px;
@@ -5,7 +28,7 @@
     }
 
     .latest-news {
-        height: 950px;
+        height: 1000px;
         padding-top: 300px;
     }
 
@@ -13,26 +36,68 @@
         height: 600px;
         background-size: 270px 600px;
     }
+
 }
 
 @media only screen and (max-width : 1360px) {
+    .solution {
+        height: 950px;
+        padding-top: 150px;
+    }
+
     .header {
         background-size: 100%;
     }
+
+    .project-header__text {
+        color: #ff7200;
+        font: bold 22px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 18px Lato, sans-serif;
+    }
+
 }
 
 @media only screen and (max-width : 1200px) {
     .some-man {
-        left: 550px;
+        left: 450px;
     }
 
     .header-img {
         width: 400px;
         height: 400px;
     }
+
+    .project-header__text {
+        color: #ff7200;
+        font: bold 18px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 15px Lato, sans-serif;
+    }
 }
 
 @media only screen and (max-width : 992px) {
+    .project-header__text {
+        color: #ff7200;
+        font: bold 24px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 18px Lato, sans-serif;
+    }
+
+    .solution {
+        height: 1450px;
+        padding-top: 150px;
+    }
+
     .price {
         margin-top: -350px;
         padding-top: 550px;
@@ -104,6 +169,21 @@
 }
 
 @media only screen and (max-width : 768px) {
+    .project-header__text {
+        color: #ff7200;
+        font: bold 24px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 18px Lato, sans-serif;
+    }
+
+    .solution {
+        height: 1950px;
+        padding-top: 170px;
+    }
+
     .copyright {
         font-size: 15px;
     }
@@ -128,6 +208,16 @@
 }
 
 @media only screen and (max-width : 520px) {
+    .project-header__text {
+        color: #ff7200;
+        font: bold 24px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 18px Lato, sans-serif;
+    }
+
     .header-img {
         width: 300px;
         height: 300px;
@@ -145,6 +235,20 @@
 }
 
 @media only screen and (max-width : 425px) {
+    .project-header__text {
+        color: #ff7200;
+        font: bold 24px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 18px Lato, sans-serif;
+    }
+
+    .solution {
+        height: 2100px;
+    }
+
     .latest-news {
         height: 1100px;
     }
@@ -160,6 +264,20 @@
 }
 
 @media only screen and (max-width : 335px) {
+    .project-header__text {
+        color: #ff7200;
+        font: bold 24px Lato, sans-serif
+    }
+
+    .project-header__desc {
+        color: #000000;
+        font: normal 18px Lato, sans-serif;
+    }
+
+    .solution {
+        height: 2200px;
+    }
+
     .main-menu {
         width: 280px;
     }
