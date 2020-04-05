@@ -587,53 +587,11 @@ input[name="email2"]::-webkit-input-placeholder {
     color: #ffffff;
 }
 
-.footer {
-    padding-top: 80px;
-    background: #383838;
-    color: #fff;
-}
-
-.footer-menu {
-    font: bold 26px Lato, sans-serif;
-}
-
-.footer-menu__list a:hover {
-    text-decoration: none;
-}
-
-.footer-menu__list li {
-    list-style-type: none;
-    line-height: 35px;
-}
-
-.footer-menu__list li a{
-    color: #fff;
-    text-transform: uppercase;
-    font: normal 20px Lato, sans-serif;
-}
-
-.footer-about__desc {
-    font: normal 16px Lato, sans-serif;
-    text-transform: uppercase;
-    line-height: 30px;
-}
-
-.footer-about {
-    font: bold 26px Lato, sans-serif;
-}
-
-.post {
-    font: bold 26px Lato, sans-serif;
-}
-
-.resent-posts {
-    font: bold 22px Lato, sans-serif;
-}
-
 .second-footer {
     padding-top: 30px;
     background: #191919;
     padding-bottom: 30px;
+    color: #fff;
 }
 
 .copyright {
